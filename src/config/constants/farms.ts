@@ -8,22 +8,22 @@ const farms: FarmConfig[] = [
     lpSymbol: 'OWL-USDC LP',
     decimal: 18,
     lpAddresses: {
-      137: '0x39e31dc146943db81d380bfb901836286464119c',
+      137: '0xcf509cbde7ffaa1d90512a9567be5f9d5a59046a',
     },
     tokenSymbol: 'OWL',
     tokenAddresses: {
-      137: '0x68c2D2982d09aE8F91De9aA6568a7B2DeeBE792A',
+      137: '0xc7553307eD737dcE132aE7915E6496864617B261',
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
   {
-    pid: 1,
+    pid: 3,
     risk: 5,
     lpSymbol: 'OWL-WMATIC LP',
     decimal: 18,
     lpAddresses: {
-      137: '0x1190285aee5e09947e7c3c860ee539550ec8afbf',
+      137: '0xf0c5c573e89fa9cd298a05e174c4a75e94a478fb',
     },
     tokenSymbol: 'WMATIC',
     tokenAddresses: {
@@ -81,24 +81,24 @@ const farms: FarmConfig[] = [
   //   quoteTokenAdresses: contracts.busd,
   // },
   {
-    pid: 2,
+    pid: 1,
     risk: 5,
     isTokenOnly: true,
     lpSymbol: 'OWL',
     decimal: 18,
     lpAddresses: {
-      137: '0x39e31dc146943db81d380bfb901836286464119c'
+      137: '0xcf509cbde7ffaa1d90512a9567be5f9d5a59046a'
     },
     tokenSymbol: 'OWL',
     tokenAddresses: {
-      137: '0x692ca411d82DeB4A96F8f89E173171b4Af83Badf'
+      137: '0xc7553307eD737dcE132aE7915E6496864617B261'
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
 
   {
-    pid: 3,
+    pid: 2,
     risk: 3,
     isTokenOnly: true,
     lpSymbol: 'WMATIC',
