@@ -51,7 +51,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'QuickSwap',
-        href: 'https://info.quickswap.exchange/token/0x692ca411d82DeB4A96F8f89E173171b4Af83Badf',
+        href: 'https://info.quickswap.exchange/token/0xc7553307eD737dcE132aE7915E6496864617B261',
       },
       {
         label: 'Vfat Tools',
