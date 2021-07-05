@@ -73,14 +73,9 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: 'https://polyowl-finance.gitbook.io/polyowl-finance/',
+        href: 'https://polyowlfinance.gitbook.io/polyowl/',
       },
     ],
-  },
-  {
-    label: 'Audit by Techrate',
-    icon: 'AuditIcon',
-    href: 'https://github.com/PolyOwlFinance/polyowl-frontend/blob/main/files/audit.pdf',
   },
 ]
 
